@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1528A4061AE0EE2600D845F8 /* GuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1528A4051AE0EE2600D845F8 /* GuessViewController.m */; };
 		15DA1DDD1ACD7339004BC3C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA1DDC1ACD7339004BC3C2 /* main.m */; };
 		15DA1DE01ACD7339004BC3C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA1DDF1ACD7339004BC3C2 /* AppDelegate.m */; };
 		15DA1DE31ACD7339004BC3C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA1DE21ACD7339004BC3C2 /* ViewController.m */; };
@@ -14,6 +15,12 @@
 		15DA1DE81ACD7339004BC3C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DA1DE71ACD7339004BC3C2 /* Images.xcassets */; };
 		15DA1DEB1ACD7339004BC3C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15DA1DE91ACD7339004BC3C2 /* LaunchScreen.xib */; };
 		15DA1DF71ACD7339004BC3C2 /* CanvasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA1DF61ACD7339004BC3C2 /* CanvasTests.m */; };
+		15DA1E021ACD7359004BC3C2 /* drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA1E011ACD7359004BC3C2 /* drawing.m */; };
+		15DA1E051AD3D49A004BC3C2 /* ModStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA1E041AD3D49A004BC3C2 /* ModStroke.m */; };
+		15DA1E071AD699D4004BC3C2 /* action_undo_1-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DA1E061AD699D4004BC3C2 /* action_undo_1-512.png */; };
+		15DA3F401AD69F39004BC3C2 /* Erase.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DA3F3F1AD69F39004BC3C2 /* Erase.png */; };
+		15DA3F421AD69FC0004BC3C2 /* Back-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DA3F411AD69FC0004BC3C2 /* Back-1.png */; };
+		15DA3F451AD7AE1F004BC3C2 /* pen_preview.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DA3F441AD7AE1F004BC3C2 /* pen_preview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1528A4041AE0EE2600D845F8 /* GuessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuessViewController.h; sourceTree = "<group>"; };
+		1528A4051AE0EE2600D845F8 /* GuessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuessViewController.m; sourceTree = "<group>"; };
 		15DA1DD71ACD7339004BC3C2 /* Canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15DA1DDB1ACD7339004BC3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15DA1DDC1ACD7339004BC3C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +49,15 @@
 		15DA1DF01ACD7339004BC3C2 /* CanvasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15DA1DF51ACD7339004BC3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15DA1DF61ACD7339004BC3C2 /* CanvasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasTests.m; sourceTree = "<group>"; };
+		15DA1E001ACD7359004BC3C2 /* drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = drawing.h; path = ../drawing.h; sourceTree = "<group>"; };
+		15DA1E011ACD7359004BC3C2 /* drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = drawing.m; path = ../drawing.m; sourceTree = "<group>"; };
+		15DA1E031AD3CCAF004BC3C2 /* ModStroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModStroke.h; sourceTree = "<group>"; };
+		15DA1E041AD3D49A004BC3C2 /* ModStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModStroke.m; sourceTree = "<group>"; };
+		15DA1E061AD699D4004BC3C2 /* action_undo_1-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action_undo_1-512.png"; sourceTree = SOURCE_ROOT; };
+		15DA3F3F1AD69F39004BC3C2 /* Erase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Erase.png; path = "../../../../../../Downloads/icons/Glyph 2/Icons24x24/Erase.png"; sourceTree = "<group>"; };
+		15DA3F411AD69FC0004BC3C2 /* Back-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Back-1.png"; path = "../../../../../../Downloads/icons/Glyph 2/Icons24x24/Back-1.png"; sourceTree = "<group>"; };
+		15DA3F431AD7AE1F004BC3C2 /* pen_preview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pen_preview.h; sourceTree = "<group>"; };
+		15DA3F441AD7AE1F004BC3C2 /* pen_preview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pen_preview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,8 @@
 		15DA1DCE1ACD7339004BC3C2 = {
 			isa = PBXGroup;
 			children = (
+				15DA3F411AD69FC0004BC3C2 /* Back-1.png */,
+				15DA3F3F1AD69F39004BC3C2 /* Erase.png */,
 				15DA1DD91ACD7339004BC3C2 /* Canvas */,
 				15DA1DF31ACD7339004BC3C2 /* CanvasTests */,
 				15DA1DD81ACD7339004BC3C2 /* Products */,
@@ -81,12 +101,21 @@
 		15DA1DD91ACD7339004BC3C2 /* Canvas */ = {
 			isa = PBXGroup;
 			children = (
+				15DA3F431AD7AE1F004BC3C2 /* pen_preview.h */,
+				15DA3F441AD7AE1F004BC3C2 /* pen_preview.m */,
+				15DA1E001ACD7359004BC3C2 /* drawing.h */,
+				15DA1E011ACD7359004BC3C2 /* drawing.m */,
+				15DA1E031AD3CCAF004BC3C2 /* ModStroke.h */,
+				15DA1E041AD3D49A004BC3C2 /* ModStroke.m */,
 				15DA1DDE1ACD7339004BC3C2 /* AppDelegate.h */,
 				15DA1DDF1ACD7339004BC3C2 /* AppDelegate.m */,
 				15DA1DE11ACD7339004BC3C2 /* ViewController.h */,
 				15DA1DE21ACD7339004BC3C2 /* ViewController.m */,
+				1528A4041AE0EE2600D845F8 /* GuessViewController.h */,
+				1528A4051AE0EE2600D845F8 /* GuessViewController.m */,
 				15DA1DE41ACD7339004BC3C2 /* Main.storyboard */,
 				15DA1DE71ACD7339004BC3C2 /* Images.xcassets */,
+				15DA1E061AD699D4004BC3C2 /* action_undo_1-512.png */,
 				15DA1DE91ACD7339004BC3C2 /* LaunchScreen.xib */,
 				15DA1DDA1ACD7339004BC3C2 /* Supporting Files */,
 			);
@@ -199,7 +228,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15DA1E071AD699D4004BC3C2 /* action_undo_1-512.png in Resources */,
+				15DA3F401AD69F39004BC3C2 /* Erase.png in Resources */,
 				15DA1DE61ACD7339004BC3C2 /* Main.storyboard in Resources */,
+				15DA3F421AD69FC0004BC3C2 /* Back-1.png in Resources */,
 				15DA1DEB1ACD7339004BC3C2 /* LaunchScreen.xib in Resources */,
 				15DA1DE81ACD7339004BC3C2 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15DA1E021ACD7359004BC3C2 /* drawing.m in Sources */,
 				15DA1DE31ACD7339004BC3C2 /* ViewController.m in Sources */,
 				15DA1DE01ACD7339004BC3C2 /* AppDelegate.m in Sources */,
 				15DA1DDD1ACD7339004BC3C2 /* main.m in Sources */,
+				15DA3F451AD7AE1F004BC3C2 /* pen_preview.m in Sources */,
+				15DA1E051AD3D49A004BC3C2 /* ModStroke.m in Sources */,
+				1528A4061AE0EE2600D845F8 /* GuessViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +448,7 @@
 				15DA1DFC1ACD7339004BC3C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15DA1DFD1ACD7339004BC3C2 /* Build configuration list for PBXNativeTarget "CanvasTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +457,7 @@
 				15DA1DFF1ACD7339004BC3C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
